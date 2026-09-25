@@ -122,7 +122,7 @@ With this notation, we can also say that because $n$ is small, the runtimes are 
 What we're really interested in, however, is when $n$ is large.
 We can easily generate large containers using python's container multiplication operator.
 For example `[1]*65536` will give us a container of length one hundred thousand with all ones.
-(65536 is $2^16$.  Since it is the largest number that can be stored in two bytes, it appears in many places.)
+(65536 is $2^{16}$.  Since it is the largest number that can be stored in two bytes, it appears in many places.)
 If you've never used python's container multiplication feature before,
 open up an interactive python session and try it:
 ```
@@ -153,7 +153,7 @@ This tells us that the runtime of a function depends on:
 
 ### Part C: Empirical Runtimes (II)
 
-Muggles think that $2^16 = 65536$ is a large number.
+Muggles think that $2^{16} = 65536$ is a large number.
 But in the computer science world, this is considered small.
 
 This part of the lab will help give you a sense of just how bad an $O(n^2)$ algorithm can be as $n$ gets large.
